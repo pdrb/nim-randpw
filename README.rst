@@ -33,7 +33,7 @@ file and compile it::
     $ wget https://raw.githubusercontent.com/pdrb/nim-randpw/master/src/randpw.nim
     $ nim c -d:release randpw.nim
 
-For generating passphrase the wordlist must be downloaded on the binary dir:
+For generating passphrase the wordlist must be downloaded on the binary dir::
 
     $ wget https://raw.githubusercontent.com/pdrb/nim-randpw/master/src/wordlist.txt
 
@@ -86,7 +86,7 @@ Lowercase password cointaing letters, numbers and punctuation::
     $ randpw -c:full -l
     5zgz&ml{hu\6)v^k
 
-Generate 3 uppercase passphrases with 8 words each:
+Generate 3 uppercase passphrases with 8 words each::
 
     $ randpw -n:3 -w:8 -p -u
     FERVOR EXCURSION SURPLUS KILOMETER MOLLUSK FOOTHOLD CATCHER DANDER

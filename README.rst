@@ -3,7 +3,7 @@ randpw
 
 Random password and passphrase generator.
 
-A simpler (without passphrase support) Python version is `also available <https://github.com/pdrb/randpw>`_.
+A Python version is `also available <https://github.com/pdrb/randpw>`_.
 
 Simple password example::
 
